@@ -22,6 +22,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	_ "github.com/herumi/bls-eth-go-binary/bls/include/bls"
+	_ "github.com/herumi/bls-eth-go-binary/bls/include/mcl"
+	_ "github.com/herumi/bls-eth-go-binary/bls/lib/linux/amd64"
 	"io"
 	"unsafe"
 )
